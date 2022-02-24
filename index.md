@@ -52,4 +52,10 @@ Batch jobs submitted to Slurm using a batch job script are typically non-interac
 
 **Where should I submit my analysis to?**
 
-This will be system-specific. For example, CSC Mahti and Puhti use [different batch job partitions](https://docs.csc.fi/computing/running/batch-job-partitions/) depending on the anticipated duration of the job, the required resources and whether the job employs GPUs or not. To find the best way forward, refer to the [user documentation](https://permedcoe.github.io/hpc-links/) of the cluster you are working with. For BSC the limits are defined at the queue level. Depending on your granted computing time, you will be able to run with different amount of resources. To check your assigned queues in any BSC system you can run [bsc_queues command](https://www.bsc.es/user-support/mn4.php#filesystems).
+This will be system-specific. For example, CSC Mahti and Puhti use [different batch job partitions](https://docs.csc.fi/computing/running/batch-job-partitions/) depending on the anticipated duration of the job, the required resources and whether the job employs GPUs or not. To find the best way forward, refer to the [user documentation](https://permedcoe.github.io/hpc-links/) of the cluster you are working with. For BSC the limits are defined at the queue level. Depending on your granted computing time, you will be able to run with different amount of resources. To check your assigned queues in any BSC system you can run the [bsc_queues command](https://www.bsc.es/user-support/mn4.php#filesystems).
+
+### Licence and acknowledgements
+
+These materials were created as part of the PerMedCoE project are free cultural works licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+The PerMedCoE project has received funding from the European Union’s Horizon 2020 research and innovation programme under the grant agreement Nº 951773.
