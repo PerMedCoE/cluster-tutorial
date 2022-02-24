@@ -2,13 +2,11 @@
 
 New to high-performance computing and unsure where to start? This tutorial provides a brief tutorial on how to access a computing cluster, learn more about managing your data and submit jobs using a batch job system.
 
-:::info
 **Note:**
 
-The exact steps for gaining access to computing environments, managing your data, using different software and submitting jobs are specific to a given cluster. Once you know which platform you wish to work with, be sure to [**consult the relevant user documentation**](LINK-TBC). 
+The exact steps for gaining access to computing environments, managing your data, using different software and submitting jobs are specific to a given cluster. Once you know which platform you wish to work with, be sure to [**consult the relevant user documentation**](https://permedcoe.github.io/hpc-links/). 
 
 To provide an overview of typical steps that might be involved, the following tutorial is largely based on documentation available for the CSC Mahti and Puhti clusters.
-:::
 
 ### 1. Gaining access
 
@@ -54,4 +52,4 @@ Batch jobs submitted to Slurm using a batch job script are typically non-interac
 
 **Where should I submit my analysis to?**
 
-This will be system-specific. For example, CSC Mahti and Puhti use [different batch job partitions](https://docs.csc.fi/computing/running/batch-job-partitions/) depending on the anticipated duration of the job, the required resources and whether the job employs GPUs or not. To find the best way forward, refer to the [user documentation](#LINK-TBC) of the cluster you are working with. For BSC the limits are defined at the queue level. Depending on your granted computing time, you will be able to run with different amount of resources. To check your assigned queues in any BSC system you can run [bsc_queues command](https://www.bsc.es/user-support/mn4.php#filesystems).
+This will be system-specific. For example, CSC Mahti and Puhti use [different batch job partitions](https://docs.csc.fi/computing/running/batch-job-partitions/) depending on the anticipated duration of the job, the required resources and whether the job employs GPUs or not. To find the best way forward, refer to the [user documentation](https://permedcoe.github.io/hpc-links/) of the cluster you are working with. For BSC the limits are defined at the queue level. Depending on your granted computing time, you will be able to run with different amount of resources. To check your assigned queues in any BSC system you can run [bsc_queues command](https://www.bsc.es/user-support/mn4.php#filesystems).
